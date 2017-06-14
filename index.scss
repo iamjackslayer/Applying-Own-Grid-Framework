@@ -1,0 +1,75 @@
+@import "main.scss";
+
+nav{
+	@include grid(12);
+	margin-bottom: 10px;
+	display: block;
+	overflow: hidden;
+	padding: 2px;
+	ul {
+		overflow: hidden;
+		padding:1px;
+		margin: 6px;
+		li {
+			float: left;
+			display: block;
+			margin-right: 13px;
+			padding: 4px;
+			&:hover{
+				cursor: pointer;
+				@include button_style(white);
+				border-width: 2px;
+				border-color: #0e8e12;
+				border-style:solid;
+			}
+		}
+	}
+}
+section#main{
+	header{
+		@include grid(12);
+		text-align: center;
+	}
+	article{
+		@include grid(12);
+		h1{
+			text-align: center;
+		}
+	}
+}
+div.button{
+	@include button_style($green_color);
+	@include grid(1);
+	text-align: center;
+	color: white;
+	padding: 4px;
+	border-radius: 5px;
+	&:hover{
+		cursor: pointer;
+		background-color: #56f442;
+		border-width: 2px;
+		border-color: #0e8e12;
+		border-style:solid;
+	}
+}
+footer{
+	@include grid(12);
+	background-color: #d2dbd2;
+	margin-top: 10px;
+
+	section#left{
+		font-size: 10px;
+		float: left;
+		@include grid(4);
+	}
+	section#center{
+		float: left;
+		font-size: 10px;
+		@include grid(4);
+	}
+	section#right{
+		float: left;
+		font-size: 10px;
+		@include grid(3);
+	}
+}

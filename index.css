@@ -1,0 +1,86 @@
+/*gutter is 10% of column width*/
+@import url(reset.css);
+@import url("https://fonts.googleapis.com/css?family=Pangolin");
+body {
+  font-family: 'Pangolin', cursive; }
+
+nav {
+  background-color: #f7f9f9; }
+
+.row:after {
+  content: " ";
+  display: block;
+  clear: both; }
+
+nav {
+  width: 100%;
+  margin-right: 0.76336%;
+  margin-bottom: 10px;
+  display: block;
+  overflow: hidden;
+  padding: 2px; }
+  nav ul {
+    overflow: hidden;
+    padding: 1px;
+    margin: 6px; }
+    nav ul li {
+      float: left;
+      display: block;
+      margin-right: 13px;
+      padding: 4px; }
+      nav ul li:hover {
+        cursor: pointer;
+        border-radius: 10%;
+        background-color: white;
+        border-width: 2px;
+        border-color: #0e8e12;
+        border-style: solid; }
+
+section#main header {
+  width: 100%;
+  margin-right: 0.76336%;
+  text-align: center; }
+section#main article {
+  width: 100%;
+  margin-right: 0.76336%; }
+  section#main article h1 {
+    text-align: center; }
+
+div.button {
+  border-radius: 10%;
+  background-color: #42f459;
+  width: 7.63359%;
+  margin-right: 0.76336%;
+  text-align: center;
+  color: white;
+  padding: 4px;
+  border-radius: 5px; }
+  div.button:hover {
+    cursor: pointer;
+    background-color: #56f442;
+    border-width: 2px;
+    border-color: #0e8e12;
+    border-style: solid; }
+
+footer {
+  width: 100%;
+  margin-right: 0.76336%;
+  background-color: #d2dbd2;
+  margin-top: 10px; }
+  footer section#left {
+    font-size: 10px;
+    float: left;
+    width: 32.82443%;
+    margin-right: 0.76336%; }
+  footer section#center {
+    float: left;
+    font-size: 10px;
+    width: 32.82443%;
+    margin-right: 0.76336%; }
+  footer section#right {
+    float: left;
+    font-size: 10px;
+    width: 24.42748%;
+    margin-right: 0.76336%; }
+
+/*# sourceMappingURL=index.css.map */
